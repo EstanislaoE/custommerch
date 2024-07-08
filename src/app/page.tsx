@@ -224,15 +224,14 @@ export default function Home() {
                 src="/arrow.png"
                 className="absolute top-[25rem] md:top-1/2 -translate-y-1/2 z-10 left-1/2 -translate-x-1/2 rotate-90 md:rotate-0"
               />
-
               <div className="relative h-80 md:h-full w-full md:justify-self-end max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 lg:rounded-2xl">
                 <img
                   src="/horse.jpg"
                   className="rounded-md object-cover bg-white shadow-2xl ring-1 ring-gray-900/10 h-full w-full"
                 />
               </div>
-
-              <Phone className="w-60" imgSrc="/horse_phone.jpg" />
+              {/* HORSE Phone*/}
+              <Phone className="w-60" imgSrc="/horse_phone.jpg" />{" "}
             </div>
           </div>
 
@@ -250,8 +249,8 @@ export default function Home() {
               Wireless charging compatible
             </li>
             <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />5 year
-              print warranty
+              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
+              24 months print warranty
             </li>
 
             <div className="flex justify-center">
